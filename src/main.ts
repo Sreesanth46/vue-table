@@ -1,4 +1,5 @@
 import VueTable from './components/VueTable.vue';
+import './assets/tailwind.css';
 
 export {
     VueTable
