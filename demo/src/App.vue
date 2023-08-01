@@ -1,5 +1,6 @@
 <script setup>
 import { VueTable } from "../../dist/es.js";
+import "../../dist/style.css";
 
 const headers = ["name", "age"];
 const keyValues = ["name", "age"];
@@ -11,7 +12,7 @@ const datas = [
 </script>
 
 <template>
-    <div>
+    <div style="width: 90%">
         <VueTable :headers="headers" :keys="keyValues" :data="datas" />
     </div>
 </template>
