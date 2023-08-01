@@ -1,5 +1,11 @@
-import { createApp } from 'vue'
-import './assets/tailwind.css'
-import App from './App.vue'
+import VueTable from './components/VueTable.vue';
 
-createApp(App).mount('#app')
+export {
+    VueTable
+}
+
+export default {
+    install(app: any, options: any) {
+        app.component('VueTable', VueTable)
+    }
+}
