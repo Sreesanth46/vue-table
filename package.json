@@ -1,23 +1,43 @@
 {
-  "name": "vue-table-component",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.3.4"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.26",
-    "tailwindcss": "^3.3.3",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.0",
-    "vue-tsc": "^1.8.3"
-  }
+    "name": "vue-table-component",
+    "private": false,
+    "version": "0.0.1",
+    "type": "module",
+    "main": "./dist/umd.js",
+    "module": "./dist/es.js",
+    "types": "./dist/main.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/es.js",
+            "require": "./dist/umd.js"
+        },
+        "./dist/style.css": {
+            "import": "./dist/style.css",
+            "require": "./dist/style.css"
+        }
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc && vite build",
+        "preview": "vite preview",
+        "watch": "cd demo && npm run dev"
+    },
+    "dependencies": {
+        "vue": "^3.3.4"
+    },
+    "devDependencies": {
+        "@types/node": "^20.4.2",
+        "@vitejs/plugin-vue": "^4.2.3",
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.26",
+        "tailwindcss": "^3.3.3",
+        "typescript": "^5.0.2",
+        "vite": "^4.4.0",
+        "vue-tsc": "^1.8.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Sreesanth46/vue-table.git"
+    },
+    "license": "MIT"
 }
