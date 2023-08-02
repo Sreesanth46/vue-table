@@ -8,7 +8,7 @@ This is a Table component for Vue.js
 npm i @harv46/vue-table
 ```
 
-# Example
+## Example
 
 ```js
 <script>
