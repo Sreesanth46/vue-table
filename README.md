@@ -40,6 +40,8 @@ const data = [{
 
 ```js
 <script setup>
+    import { VueTable  } from "@harv46/vue-table"
+    import "@harv46/vue-table/dist/style.css"
     const headers = ["id", "name", "amount", "status", "Created By"];
     const keyValue = [
         "id",
@@ -56,7 +58,7 @@ const data = [{
 </script>
 
 <template>
-    <AppTable :headers="headers" :keys="keyValue" :data="getData">
+    <VueTable :headers="headers" :keys="keyValue" :data="getData">
         <template #th>
             <th> Actions</th>
         </template>
@@ -67,7 +69,7 @@ const data = [{
                 <EditIcon @click="edit(item)" />
             </td>
         </template>
-    </AppTable>
+    </VueTable>
 <template>
 ```
 
