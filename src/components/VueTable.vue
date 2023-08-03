@@ -44,7 +44,7 @@ const reduceObject = (obj: any, path: string[]) => {
                         </span>
                         <span v-else>{{ item[key] }}</span>
                     </td>
-                    <slot name="td" :id="item" />
+                    <slot name="td" :item="item" />
                 </tr>
             </tbody>
         </table>
