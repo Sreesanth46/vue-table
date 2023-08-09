@@ -36,6 +36,16 @@ const data = [{
 </template>
 ```
 
+### Dark mode
+
+```js
+<template>
+    <div>
+      <VueTable :headers="header" :data="data" :keys="keys" dark />
+    </div>
+</template>
+```
+
 ## Advance usage example
 
 ```js
@@ -51,7 +61,7 @@ const data = [{
         ["createdUser", "user", "name"],
     ];
 
-    getData[0].createdUser.user.name || [ ["createdUser", "user", "name"] ]
+    {/* getData[0].createdUser.user.name || [ ["createdUser", "user", "name"] ] */}
 
     {/* get data from api || store */}
     const getData = () => {}
@@ -80,3 +90,4 @@ const data = [{
 | `data`    | Data to be rendered                    | `[]`    |
 | `headers` | heading of the table                   | `[]`    |
 | `keys`    | Keys of the table data (can be nested) | `[]`    |
+| `dark`    | Dark mode                              | `false` |
