@@ -12,7 +12,16 @@ const datas = [
 </script>
 
 <template>
-    <div style="width: 90%">
+    <div
+        style="
+            width: 90%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            margin-top: 6%;
+        "
+    >
         <VueTable :headers="headers" :keys="keyValues" :data="datas" />
     </div>
 </template>
