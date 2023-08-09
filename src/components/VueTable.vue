@@ -1,9 +1,15 @@
 <script setup lang="ts">
-defineProps<{
-    headers: string[],
-    data: any[],
-    keys: string[],
-}>();
+withDefaults(
+    defineProps<{
+        headers: string[];
+        data: any[];
+        keys: string[];
+        dark: boolean;
+    }>(),
+    {
+        dark: false,
+    }
+);
 
 const reduceObject = (obj: any, path: string[]) => {
     return path.reduce((prev, key) => {
@@ -15,10 +21,12 @@ const reduceObject = (obj: any, path: string[]) => {
 <template>
     <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
         <table
-            class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+            class="w-full text-sm text-left text-gray-500"
+            :class="{ 'dark:text-gray-400': dark }"
         >
             <thead
-                class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
+                class="text-xs text-gray-700 uppercase bg-gray-50"
+                :class="{ 'dark:bg-gray-700 dark:text-gray-400': dark }"
             >
                 <tr>
                     <th
@@ -34,7 +42,11 @@ const reduceObject = (obj: any, path: string[]) => {
             </thead>
             <tbody>
                 <tr
-                    class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+                    class="bg-white border-b hover:bg-gray-50"
+                    :class="{
+                        'dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-600':
+                            dark,
+                    }"
                     v-for="(item, i) in data"
                     :key="i"
                 >
