@@ -18,8 +18,10 @@ import PageNumber from './PageNumber.vue';
 </script>
 
 <template>
-  <nav aria-label="Page navigation example" :class="{ 'dark': dark }">
-    <ul class="flex items-center -space-x-px h-8 text-sm">
+  <nav aria-label="Page navigation" :class="{ dark: dark }">
+    <ul
+      class="flex items-center -space-x-px"
+      :class="[large ? 'h-10 text-base' : 'h-8 text-sm']">
       <PreviousNavigation :large="large" />
       <page-number
         :large="large"
@@ -29,20 +31,6 @@ import PageNumber from './PageNumber.vue';
         >{{ item }}</page-number
       >
       <NextNavigation :large="large" />
-    </ul>
-  </nav>
-  <br />
-  <nav aria-label="Page navigation example" :class="{ 'dark': dark }">
-    <ul class="flex items-center -space-x-px h-10 text-base">
-      <PreviousNavigation :large="!large" />
-      <page-number
-        :large="!large"
-        :active="item === 2"
-        v-for="item in [1, 2, 3, 4, 5]"
-        :key="item"
-        >{{ item }}</page-number
-      >
-      <NextNavigation :large="!large" />
     </ul>
   </nav>
 </template>
