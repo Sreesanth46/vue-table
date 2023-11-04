@@ -3,12 +3,10 @@ withDefaults(
   defineProps<{
     large: boolean;
     dark: boolean;
-    active: boolean;
   }>(),
   {
     large: false,
     dark: false,
-    active: false
   }
 );
 
