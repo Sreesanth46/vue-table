@@ -4,7 +4,7 @@ import "../../dist/style.css";
 
 const headers = ["name", "age"];
 const keyValues = ["name", "age"];
-const datas = [
+const data = [
     { name: "example 1", age: 19 },
     { name: "example 2", age: 22 },
     { name: "example 3", age: 40 },
@@ -22,7 +22,11 @@ const datas = [
             margin-top: 6%;
         "
     >
-        <VueTable :headers="headers" :keys="keyValues" :data="datas" />
-        <VuePaginator />
+        <VueTable :headers="headers" :keys="keyValues" :data="data" />
+        <div style="display: flex; flex-direction: column; align-items: center; margin-top: 2rem;">
+            <VuePaginator />
+            <br>
+            <VuePaginator large/>
+        </div>
     </div>
 </template>
