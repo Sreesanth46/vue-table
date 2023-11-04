@@ -1,5 +1,5 @@
 <script setup>
-import { VueTable } from "../../dist/es.js";
+import { VueTable, VuePaginator } from "../../dist/es.js";
 import "../../dist/style.css";
 
 const headers = ["name", "age"];
@@ -23,5 +23,6 @@ const datas = [
         "
     >
         <VueTable :headers="headers" :keys="keyValues" :data="datas" />
+        <VuePaginator />
     </div>
 </template>
