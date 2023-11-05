@@ -1,7 +1,7 @@
 {
     "name": "@harv46/vue-table",
     "private": false,
-    "version": "0.0.6",
+    "version": "0.1.0",
     "type": "module",
     "main": "./dist/umd.js",
     "module": "./dist/es.js",
@@ -45,6 +45,15 @@
         "type": "git",
         "url": "https://github.com/Sreesanth46/vue-table.git"
     },
+    "keywords": [
+        "vue-component",
+        "table",
+        "vue-table",
+        "paginate",
+        "paginator",
+        "pagination"
+    ],
+    "description": "A vue table component with pagination component included.",
     "license": "MIT",
     "publishConfig": {
         "access": "public"
