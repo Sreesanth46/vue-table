@@ -2,35 +2,57 @@
 import PreviousNavigation from './PreviousNavigation.vue';
 import NextNavigation from './NextNavigation.vue';
 import PageNumber from './PageNumber.vue';
-import { ref } from 'vue';
+import { computed, ref, watch } from 'vue';
 
 const props = withDefaults(
   defineProps<{
     large: boolean;
     dark: boolean;
-    defaultPage: number
+    defaultPage: number;
+    bufferCount: number;
+    pageCount: number;
   }>(),
   {
     large: false,
     dark: false,
     defaultPage: 1,
+    bufferCount: 2,
+    pageCount: 5
   }
 );
 
-const currentPage = ref(props.defaultPage)
+const emit = defineEmits({
+  onPageChange : (pageNumber: number) => PageNumber 
+})
 
-function nextPage() {
-  // TODO: this conditions should be updated 
-  if(currentPage.value != 5) currentPage.value++ 
+const currentPage = ref(props.defaultPage);
+
+watch(currentPage, (newPage: number) => emit('onPageChange', newPage))
+
+const pages = computed(() => {
+  const totalBuffer = props.bufferCount * 2;
+  const pageBuffer = Math.min(totalBuffer, props.pageCount);
+  let start = Math.max(currentPage.value - pageBuffer, 1);
+  const end = Math.min(start + pageBuffer, props.pageCount);
+
+  const pages = [];
+  for (let i = start; i <= end; i++) {
+    pages.push(i);
+  }
+  return pages;
+});
+
+function nextPage(): void {
+  if (currentPage.value != props.pageCount) currentPage.value++;
 }
 
-function previousPage() {
-  // TODO: this conditions should be updated 
-  if(currentPage.value != 1) currentPage.value--
+function previousPage(): void {
+  // TODO: verify this condition
+  if (currentPage.value != 1) currentPage.value--;
 }
 
-function selectPage(pageNumber: number) {
-  currentPage.value = pageNumber
+function selectPage(pageNumber: number): void {
+  currentPage.value = pageNumber;
 }
 </script>
 
@@ -42,7 +64,7 @@ function selectPage(pageNumber: number) {
       <PreviousNavigation :large="large" @click="previousPage" />
       <page-number
         :large="large"
-        v-for="item in [1, 2, 3, 4, 5]"
+        v-for="item in pages"
         :key="item"
         :active="item === currentPage"
         @click="selectPage(item)"
