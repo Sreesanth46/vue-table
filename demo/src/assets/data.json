@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "name": "Eric Travis",
+    "date_of_birth": "1995-05-25",
+    "GPA": "3.0",
+    "course": "Computer Science",  
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 2,
+    "name": "Mark Smith",
+    "date_of_birth": "1996-02-10",
+    "GPA": "2.5",
+    "course": "Robotics",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 3,
+    "name": "Marissa Barker",
+    "date_of_birth": "1996-10-01", 
+    "GPA": "3.5",
+    "course": "Biology",
+    "department": "STEM",
+    "fees_paid": false
+  },
+  {
+    "id": 4,
+    "name": "Justin Holden",
+    "date_of_birth": "1994-08-22",
+    "GPA": "3.23",
+    "course": "Philosophy",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 5,
+    "name": "Michelle Thompson",
+    "date_of_birth": "1995-08-05",
+    "GPA": "3.9",
+    "course": "Film Studies",
+    "department": "Social Sciences",
+    "fees_paid": true
+  },
+  {
+    "id": 6,
+    "name": "Blake Fox",
+    "date_of_birth": "1996-06-01",
+    "GPA": "3.5",
+    "course": "Computer Science",
+    "department": "Arts and Humanities",
+    "fees_paid": false
+  },
+  {
+    "id": 7,
+    "name": "Tony Stark",
+    "date_of_birth": "1997-02-22",
+    "GPA": "4",
+    "course": "Robotics",
+    "department": "Business",
+    "fees_paid": true
+  },
+  {
+    "id": 8,
+    "name": "Mike Ross",
+    "date_of_birth": "1999-07-05",
+    "GPA": "3.9",
+    "course": "Film Studies",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 9,
+    "name": "Maynard Quigley",
+    "date_of_birth": "1946-06-18",
+    "GPA": "2.8",
+    "course": "Computer Science",
+    "department": "Business",
+    "fees_paid": true
+  },
+  {
+    "id": 10,
+    "name": "Lionel Stamm",
+    "date_of_birth": "2002-03-21",
+    "GPA": "3.1",
+    "course": "Physics",
+    "department": "STEM",
+    "fees_paid": false
+  },
+  {
+    "id": 11,
+    "name": "Kayleigh Schamberger",
+    "date_of_birth": "2003-04-24",
+    "GPA": "2.6",
+    "course": "Chemistry",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 12,
+    "name": "Dr. Litzy Rutherford",
+    "date_of_birth": "1991-09-02",
+    "GPA": "2.7",
+    "course": "Computer Science",
+    "department": "Social Sciences",
+    "fees_paid": false
+  },
+  {
+    "id": 13,
+    "name": "Solon O'Connell",
+    "date_of_birth": "1964-10-31",
+    "GPA": "2.9",
+    "course": "Chemistry",
+    "department": "Business",
+    "fees_paid": true
+  },
+  {
+    "id": 14,
+    "name": "Prof. Axel Schiller",
+    "date_of_birth": "1983-04-05",
+    "GPA": "2.1",
+    "course": "Computer Science",
+    "department": "STEM",
+    "fees_paid": false
+  },
+  {
+    "id": 15,
+    "name": "Dr. Alyce Swaniawski",
+    "date_of_birth": "1964-12-01",
+    "GPA": "3.4",
+    "course": "Mathematics",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 16,
+    "name": "Aleen Mraz",
+    "date_of_birth": "1959-07-22",
+    "GPA": "3.9",
+    "course": "Computer Science",
+    "department": "Business",
+    "fees_paid": true
+  },
+  {
+    "id": 17,
+    "name": "Dr. Micaela Leannon",
+    "date_of_birth": "1977-02-28",
+    "GPA": "2.1",
+    "course": "Physics",
+    "department": "Social Sciences",
+    "fees_paid": false
+  },
+  {
+    "id": 18,
+    "name": "Filiberto Macejkovic",
+    "date_of_birth": "1951-04-04",
+    "GPA": "3.4",
+    "course": "Mathematics",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 19,
+    "name": "Mr. Moses Tremblay",
+    "date_of_birth": "1961-08-31",
+    "GPA": "2.8",
+    "course": "Computer Science",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 20,
+    "name": "Elyssa Feest",
+    "date_of_birth": "1965-10-13",
+    "GPA": "3.2",
+    "course": "Mathematics",
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 21,
+    "name": "Aliya Gusikowski",
+    "date_of_birth": "1980-06-29",
+    "GPA": "3.3",
+    "course": "Biology", 
+    "department": "Social Sciences",
+    "fees_paid": true
+  },
+  {
+    "id": 22,
+    "name": "Jacklyn Boehm",
+    "date_of_birth": "1967-04-19",
+    "GPA": "3.2",
+    "course": "Computer Science",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 23,
+    "name": "Prof. Lavina Kertzmann",
+    "date_of_birth": "1960-12-31",
+    "GPA": "3.8",
+    "course": "Mathematics",
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 24,
+    "name": "Alia Brakus",
+    "date_of_birth": "1952-11-24",
+    "GPA": "2.6",
+    "course": "Physics",
+    "department": "Arts and Humanities", 
+    "fees_paid": false
+  },
+  {
+    "id": 25,
+    "name": "Zella Zboncak",
+    "date_of_birth": "1995-12-29",
+    "GPA": "2.8",
+    "course": "Mathematics",
+    "department": "Social Sciences",
+    "fees_paid": true
+  },
+  {
+    "id": 26,
+    "name": "Vernie Boyle",
+    "date_of_birth": "1967-08-31",
+    "GPA": "2.1",
+    "course": "Chemistry",
+    "department": "Business",
+    "fees_paid": true
+  },
+  {
+    "id": 27,
+    "name": "Annamae Wiza",
+    "date_of_birth": "1952-04-07",
+    "GPA": "2.8",
+    "course": "Mathematics",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 28,
+    "name": "Prof. Alexandro Morar",
+    "date_of_birth": "1975-12-25",
+    "GPA": "2.9",
+    "course": "Mathematics",
+    "department": "STEM",
+    "fees_paid": false
+  },
+  {
+    "id": 29,
+    "name": "Maximillian Morissette",
+    "date_of_birth": "1952-06-20",
+    "GPA": "2.5", 
+    "course": "Computer Science",
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 30,
+    "name": "Wayne Schamberger",
+    "date_of_birth": "1987-04-27",
+    "GPA": "2.8",
+    "course": "Mathematics",
+    "department": "Social Sciences",
+    "fees_paid": false
+  },
+  {
+    "id": 31,
+    "name": "Dr. Angelica Koch",
+    "date_of_birth": "1974-08-31",
+    "GPA": "3.4",
+    "course": "Chemistry",
+    "department": "Arts and Humanities",
+    "fees_paid": false
+  },
+  {
+    "id": 32,
+    "name": "Ova Runte",
+    "date_of_birth": "1951-04-18",
+    "GPA": "3.8",
+    "course": "Mathematics",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 33,
+    "name": "Dr. Billie Hammes",
+    "date_of_birth": "1959-12-04",
+    "GPA": "3.7",
+    "course": "Computer Science",
+    "department": "Business",
+    "fees_paid": true
+  },
+  {
+    "id": 34,
+    "name": "Letha Reichert",
+    "date_of_birth": "1968-07-22",
+    "GPA": "2.3",
+    "course": "Mathematics",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 35,
+    "name": "Casandra Bins",
+    "date_of_birth": "1966-11-15",
+    "GPA": "3.4",
+    "course": "Chemistry",
+    "department": "Social Sciences",
+    "fees_paid": true
+  },
+  {
+    "id": 36,
+    "name": "Prof. Idell Gorczany",
+    "date_of_birth": "1976-05-31",
+    "GPA": "2.9",
+    "course": "Chemistry",
+    "department": "Business",
+    "fees_paid": true
+  },
+  {
+    "id": 37,
+    "name": "Pearl Kuvalis",
+    "date_of_birth": "1966-02-01",
+    "GPA": "2.1",
+    "course": "Mathematics",
+    "department": "STEM",
+    "fees_paid": false
+  },
+  {
+    "id": 38,
+    "name": "Letitia Hammes",
+    "date_of_birth": "1955-05-15",
+    "GPA": "3.7",
+    "course": "Mathematics",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 39,
+    "name": "Sophia Roob",
+    "date_of_birth": "1981-04-08",
+    "GPA": "3.4",
+    "course": "Computer Science",
+    "department": "Social Sciences",
+    "fees_paid": false
+  },
+  {
+    "id": 40,
+    "name": "Jaron Moen",
+    "date_of_birth": "1953-02-02",
+    "GPA": "2.6",
+    "course": "Mathematics",
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 41,
+    "name": "Duncan Beatty",
+    "date_of_birth": "1978-08-18",
+    "GPA": "3.4",
+    "course": "Mathematics", 
+    "department": "STEM",
+    "fees_paid": false
+  },
+  {
+    "id": 42,
+    "name": "Mrs. Meredith Buckridge",
+    "date_of_birth": "1957-07-31",
+    "GPA": "2.5",
+    "course": "Biology",
+    "department": "Arts and Humanities",
+    "fees_paid": false
+  },
+  {
+    "id": 43,
+    "name": "Quinton Kemmer",
+    "date_of_birth": "1969-12-24",
+    "GPA": "3.8",
+    "course": "Biology",
+    "department": "Social Sciences",
+    "fees_paid": true
+  },
+  {
+    "id": 44,
+    "name": "Germaine Braun",
+    "date_of_birth": "1958-10-04",
+    "GPA": "2.9",
+    "course": "Mathematics",
+    "department": "Business",
+    "fees_paid": true
+  },
+  {
+    "id": 45,
+    "name": "Bryana Hoppe", 
+    "date_of_birth": "1956-02-26",
+    "GPA": "2.3",
+    "course": "Mathematics",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 46,
+    "name": "Porter D'Amore",
+    "date_of_birth": "1961-12-20",
+    "GPA": "3.7",
+    "course": "Computer Science",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 47,
+    "name": "Prof. Marlene Runolfsdottir",
+    "date_of_birth": "1986-06-24",
+    "GPA": "3.1",
+    "course": "Mathematics",
+    "department": "Social Sciences",
+    "fees_paid": true
+  },
+  {
+    "id": 48,
+    "name": "Alphonso Berge",
+    "date_of_birth": "1989-08-31",
+    "GPA": "3.2",
+    "course": "Computer Science",
+    "department": "Business",
+    "fees_paid": true
+  },
+  {
+    "id": 49,
+    "name": "Fiona Lebsack",
+    "date_of_birth": "1954-03-31",
+    "GPA": "2.5",
+    "course": "Mathematics",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 50,
+    "name": "Ansley Stamm",
+    "date_of_birth": "1967-01-23",
+    "GPA": "2.4",
+    "course": "Computer Science",
+    "department": "Arts and Humanities",
+    "fees_paid": false
+  },
+  {
+    "id": 51,
+    "name": "Lenny Weimann",
+    "date_of_birth": "1956-03-09",
+    "GPA": "3.4",
+    "course": "Mathematics",
+    "department": "Social Sciences",
+    "fees_paid": false
+  },
+  {
+    "id": 52,
+    "name": "Breanne Gulgowski",
+    "date_of_birth": "1972-06-21",
+    "GPA": "3.1",
+    "course": "Mathematics",
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 53,
+    "name": "Krista Shields",
+    "date_of_birth": "1969-03-05",
+    "GPA": "2.1",
+    "course": "Computer Science",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 54,
+    "name": "Kaleigh Cremin",
+    "date_of_birth": "1983-08-22",
+    "GPA": "2.9",
+    "course": "Mathematics",
+    "department": "Arts and Humanities",
+    "fees_paid": false
+  },
+  {
+    "id": 55,
+    "name": "Lavina Deckow",
+    "date_of_birth": "1976-12-17",
+    "GPA": "3.2",
+    "course": "Physics",
+    "department": "Social Sciences",
+    "fees_paid": true
+  },
+  {
+    "id": 56,
+    "name": "Bertha Kris",
+    "date_of_birth": "1974-02-28",
+    "GPA": "2.6",
+    "course": "Chemistry",
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 57,
+    "name": "Katherine Keeling",
+    "date_of_birth": "1955-07-08",
+    "GPA": "3.1",
+    "course": "Mathematics",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 58,
+    "name": "Mr. Antone Wiegand",
+    "date_of_birth": "1958-03-29",
+    "GPA": "3.1",
+    "course": "Physics",
+    "department": "Arts and Humanities", 
+    "fees_paid": true
+  },
+  {
+    "id": 59,
+    "name": "Alia McKenzie", 
+    "date_of_birth": "1967-05-23",
+    "GPA": "3.0",
+    "course": "Mathematics",
+    "department": "Social Sciences",
+    "fees_paid": false
+  },
+  {
+    "id": 60,
+    "name": "Everardo O'Conner",
+    "date_of_birth": "1978-02-15",
+    "GPA": "2.6",
+    "course": "Chemistry",
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 61,
+    "name": "Angelica Harris",
+    "date_of_birth": "1969-08-17",
+    "GPA": "2.7",
+    "course": "Computer Science",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 62,
+    "name": "Alleen Gottlieb",
+    "date_of_birth": "1982-09-27",
+    "GPA": "2.9",
+    "course": "Physics",
+    "department": "Arts and Humanities",
+    "fees_paid": false
+  },
+  {
+    "id": 63,
+    "name": "Alvina Hoppe",
+    "date_of_birth": "1957-04-13",
+    "GPA": "3.1",
+    "course": "Mathematics",
+    "department": "Business",
+    "fees_paid": true
+  },
+  {
+    "id": 64,
+    "name": "Miss Frederique Auer",
+    "date_of_birth": "1959-08-25",
+    "GPA": "3.0",
+    "course": "Computer Science",
+    "department": "Social Sciences",
+    "fees_paid": false
+  },
+  {
+    "id": 65,
+    "name": "Hazle Huel",
+    "date_of_birth": "1977-07-07",
+    "GPA": "3.4",
+    "course": "Mathematics",
+    "department": "STEM",
+    "fees_paid": false
+  },
+  {
+    "id": 66, 
+    "name": "Lucious Hagenes",
+    "date_of_birth": "1955-12-10",
+    "GPA": "2.8",
+    "course": "Mathematics",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 67,
+    "name": "Prof. Roscoe Gusikowski", 
+    "date_of_birth": "1964-03-30",
+    "GPA": "3.4",
+    "course": "Mathematics",
+    "department": "Business",
+    "fees_paid": true
+  },
+  {
+    "id": 68,
+    "name": "Prof. Nikita Nienow",
+    "date_of_birth": "1964-03-30",
+    "GPA": "3.4",
+    "course": "Mathematics",
+    "department": "Social Sciences",
+    "fees_paid": true
+  },
+  {
+    "id": 69,
+    "name": "Alta Considine",
+    "date_of_birth": "1978-06-05",
+    "GPA": "2.9",
+    "course": "Computer Science",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 70,
+    "name": "Prof. Kelton Hilpert",
+    "date_of_birth": "1957-12-04",
+    "GPA": "3.3",
+    "course": "Chemistry", 
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 71,
+    "name": "Oleta Morar",
+    "date_of_birth": "1950-05-18",
+    "GPA": "3.4",
+    "course": "Mathematics",
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 72,
+    "name": "Jena Little",
+    "date_of_birth": "1957-08-17",
+    "GPA": "3.1",
+    "course": "Mathematics",
+    "department": "Social Sciences",
+    "fees_paid": true
+  },
+  {
+    "id": 73,
+    "name": "Prof. Reynold Pagac",
+    "date_of_birth": "1976-03-06",
+    "GPA": "3.5",
+    "course": "Chemistry",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 74,
+    "name": "Mr. Freida Wintheiser",
+    "date_of_birth": "1957-12-30",
+    "GPA": "2.3",
+    "course": "Physics",
+    "department": "Arts and Humanities",
+    "fees_paid": false
+  },
+  {
+    "id": 75,
+    "name": "Archibald Heller",
+    "date_of_birth": "1966-06-29",
+    "GPA": "3.0",
+    "course": "Mathematics",
+    "department": "Business",
+    "fees_paid": true
+  },
+  {
+    "id": 76,
+    "name": "Ms. Damian Schumm",
+    "date_of_birth": "1967-12-31",
+    "GPA": "3.1",
+    "course": "Mathematics",
+    "department": "Social Sciences",
+    "fees_paid": false
+  },
+  {
+    "id": 77,
+    "name": "Elian Block",
+    "date_of_birth": "1955-04-24",
+    "GPA": "3.2",
+    "course": "Mathematics",
+    "department": "STEM",
+    "fees_paid": false
+  },
+  {
+    "id": 78,
+    "name": "Gregoria Nienow",
+    "date_of_birth": "1979-01-04",
+    "GPA": "2.7",
+    "course": "Chemistry",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 79,
+    "name": "Gordon Hagenes",
+    "date_of_birth": "1974-07-04",
+    "GPA": "3.7",
+    "course": "Chemistry",
+    "department": "Business",
+    "fees_paid": true
+  },
+  {
+    "id": 80,
+    "name": "Karlee Wolff",
+    "date_of_birth": "1973-11-20",
+    "GPA": "2.7",
+    "course": "Mathematics",
+    "department": "Social Sciences",
+    "fees_paid": true
+  },
+  {
+    "id": 81,
+    "name": "Ryder Braun",
+    "date_of_birth": "1951-12-07",
+    "GPA": "3.1",
+    "course": "Computer Science",
+    "department": "STEM",
+    "fees_paid": false
+  },
+  {
+    "id": 82,
+    "name": "Yvonne Kozey",
+    "date_of_birth": "1968-07-11",
+    "GPA": "2.8",
+    "course": "Physics",
+    "department": "Arts and Humanities",
+    "fees_paid": false
+  },
+  {
+    "id": 83,
+    "name": "Magnus Tillman",
+    "date_of_birth": "1990-10-06",
+    "GPA": "2.6",
+    "course": "Computer Science", 
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 84,
+    "name": "Archibald Harris",
+    "date_of_birth": "1962-04-20",
+    "GPA": "3.6",
+    "course": "Computer Science",
+    "department": "Social Sciences",
+    "fees_paid": false
+  },
+  {
+    "id": 85,
+    "name": "Jarrett Lang",
+    "date_of_birth": "1979-05-07",
+    "GPA": "2.7",
+    "course": "Physics",
+    "department": "STEM",
+    "fees_paid": false
+  },
+  {
+    "id": 86,
+    "name": "Miss Neva Langosh",
+    "date_of_birth": "1962-12-08",
+    "GPA": "3.1",
+    "course": "Chemistry",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 87,
+    "name": "Mr. Bradford Cruickshank",
+    "date_of_birth": "1956-11-18",
+    "GPA": "2.3",
+    "course": "Physics",
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 88,
+    "name": "Prof. Gerda Muller",
+    "date_of_birth": "1982-01-21",
+    "GPA": "3.4",
+    "course": "Mathematics",
+    "department": "Social Sciences",
+    "fees_paid": false
+  },
+  {
+    "id": 89,
+    "name": "Corine Stiedemann",
+    "date_of_birth": "1976-05-02",
+    "GPA": "2.9",
+    "course": "Physics",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 90,
+    "name": "Krystina Romaguera",
+    "date_of_birth": "1986-03-13",
+    "GPA": "3.2",
+    "course": "Mathematics",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 91,
+    "name": "Talia Robel",
+    "date_of_birth": "1976-07-21",
+    "GPA": "2.9",
+    "course": "Mathematics",
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 92,
+    "name": "Mozell Pollich",
+    "date_of_birth": "1987-12-25",
+    "GPA": "3.1",
+    "course": "Mathematics",
+    "department": "Social Sciences",
+    "fees_paid": false
+  },
+  {
+    "id": 93,
+    "name": "Prof. Wilburn Auer",
+    "date_of_birth": "1987-09-20",
+    "GPA": "2.6",
+    "course": "Mathematics",
+    "department": "STEM",
+    "fees_paid": false
+  },
+  {
+    "id": 94,
+    "name": "Arthur Langosh PhD",
+    "date_of_birth": "1967-09-20",
+    "GPA": "3.0",
+    "course": "Physics",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 95,
+    "name": "Elyse Metz",
+    "date_of_birth": "1986-11-17",
+    "GPA": "2.5",
+    "course": "Physics",
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 96,
+    "name": "Molly Legros",
+    "date_of_birth": "1951-08-04",
+    "GPA": "2.3",
+    "course": "Mathematics",
+    "department": "Social Sciences",
+    "fees_paid": false
+  },
+  {
+    "id": 97, 
+    "name": "Marge Stiedemann",
+    "date_of_birth": "1998-05-18",
+    "GPA": "2.8",
+    "course": "Chemistry",
+    "department": "STEM",
+    "fees_paid": true
+  },
+  {
+    "id": 98,
+    "name": "Emelie Douglas",
+    "date_of_birth": "1977-06-11",
+    "GPA": "2.7",
+    "course": "Mathematics",
+    "department": "Arts and Humanities",
+    "fees_paid": true
+  },
+  {
+    "id": 99,
+    "name": "Eli Rogahn",
+    "date_of_birth": "1965-11-11",
+    "GPA": "3.1",
+    "course": "Chemistry", 
+    "department": "Business",
+    "fees_paid": false
+  },
+  {
+    "id": 100,
+    "name": "Miss Gaylord Toy",
+    "date_of_birth": "1978-08-27",
+    "GPA": "3.5",
+    "course": "Physics",
+    "department": "Social Sciences",
+    "fees_paid": true
+  }
+]
