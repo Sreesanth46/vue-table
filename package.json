@@ -1,61 +1,61 @@
 {
-    "name": "@harv46/vue-table",
-    "private": false,
-    "version": "0.1.1",
-    "type": "module",
-    "main": "./dist/umd.js",
-    "module": "./dist/es.js",
-    "types": "./dist/main.d.ts",
-    "exports": {
-        ".": {
-            "import": "./dist/es.js",
-            "require": "./dist/umd.js"
-        },
-        "./dist/style.css": {
-            "import": "./dist/style.css",
-            "require": "./dist/style.css"
-        }
+  "name": "@harv46/vue-table",
+  "private": false,
+  "version": "0.1.2",
+  "type": "module",
+  "main": "./dist/umd.js",
+  "module": "./dist/es.js",
+  "types": "./dist/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/es.js",
+      "require": "./dist/umd.js"
     },
-    "scripts": {
-        "dev": "vite",
-        "build": "vue-tsc && vite build",
-        "preview": "vite preview",
-        "watch": "cd demo && npm run dev"
-    },
-    "dependencies": {
-        "vue": "^3.3.4"
-    },
-    "devDependencies": {
-        "@types/node": "^20.4.2",
-        "@vitejs/plugin-vue": "^4.2.3",
-        "autoprefixer": "^10.4.14",
-        "postcss": "^8.4.26",
-        "tailwindcss": "^3.3.5",
-        "typescript": "^5.0.2",
-        "vite": "^4.4.0",
-        "vue-tsc": "^1.8.3"
-    },
-    "files": [
-        "package.json",
-        "package-lock.json",
-        "dist",
-        "README.md"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Sreesanth46/vue-table.git"
-    },
-    "keywords": [
-        "vue-component",
-        "table",
-        "vue-table",
-        "paginate",
-        "paginator",
-        "pagination"
-    ],
-    "description": "A vue table component with pagination component included.",
-    "license": "MIT",
-    "publishConfig": {
-        "access": "public"
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
     }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "watch": "cd demo && npm run dev"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.26",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.3.3",
+    "vite": "^4.4.0",
+    "vue-tsc": "^1.8.3"
+  },
+  "files": [
+    "package.json",
+    "package-lock.json",
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sreesanth46/vue-table.git"
+  },
+  "keywords": [
+    "vue-component",
+    "table",
+    "vue-table",
+    "paginate",
+    "paginator",
+    "pagination"
+  ],
+  "description": "A vue table component with pagination component included.",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
