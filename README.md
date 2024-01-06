@@ -60,37 +60,48 @@ const data = [{
         "status",
         ["createdUser", "user", "name"],
     ];
+    const loading = ref(false);
 
-    {/* getData[0].createdUser.user.name || [ ["createdUser", "user", "name"] ] */}
+    {/* getData[0].createdUser.user.name ==> [ ["createdUser", "user", "name"] ] */}
 
     {/* get data from api || store */}
-    const getData = () => {}
+    const getData = () => {
+      const loading = ref(true);
+      // get data
+    }
 </script>
 
 <template>
-    <VueTable :headers="headers" :keys="keyValue" :data="getData">
-        <template #th>
-            <th> Actions</th>
-        </template>
-        <template #td="{ item }">
-            {/* item will be the object in a row */}
-            <td class="flex">
-                <DeleteIcon @click="deleteItem(item.id)" />
-                <EditIcon @click="edit(item)" />
-            </td>
-        </template>
+    <VueTable
+      :headers="headers"
+      :keys="keyValues"
+      :data="getData"
+      :loading="loading"
+    >
+      <template #th>
+        <th> Actions</th>
+      </template>
+      <template #td="{ item }">
+        {/* item will be the object in a row */}
+        <td class="flex">
+            <DeleteIcon @click="deleteItem(item.id)" />
+            <EditIcon @click="edit(item)" />
+        </td>
+      </template>
     </VueTable>
 <template>
 ```
 
 ### Props - VueTable
 
-| Prop      | Description                            | Default |
-| --------- | -------------------------------------- | ------- |
-| `data`    | Data to be rendered                    | `[]`    |
-| `headers` | Heading of the table                   | `[]`    |
-| `keys`    | Keys of the table data (can be nested) | `[]`    |
-| `dark`    | Dark mode                              | `false` |
+| Prop            | Description                            | Default             |
+| --------------- | -------------------------------------- | ------------------- |
+| `data`          | Data to be rendered                    |                     |
+| `headers`       | Heading of the table                   |                     |
+| `keys`          | Keys of the table data (can be nested) |                     |
+| `dark`          | Dark mode                              | `false`             |
+| `loading`       | Data loading state - show a spinner    | `false`             |
+| `noDataMessage` | Message when there is no data          | `No data available` |
 
 ## VuePaginator
 
