@@ -27,6 +27,7 @@ const itemsPerPage = 8;
 
 const startOffSet = ref(0);
 const endOffSet = ref(startOffSet.value + itemsPerPage);
+const loading = ref(false);
 
 watch(startOffSet, nOff => {
   endOffSet.value = startOffSet.value + itemsPerPage;
@@ -35,12 +36,16 @@ watch(startOffSet, nOff => {
 const pageCount = Math.ceil(data.length / itemsPerPage);
 
 const currentData = computed(() =>
-  data.slice(startOffSet.value, endOffSet.value)
+  loading.value ? [] : data.slice(startOffSet.value, endOffSet.value)
 );
 
 function onPageChange(pageNumber) {
   const newOffSet = (pageNumber - 1) * itemsPerPage;
-  startOffSet.value = newOffSet;
+  loading.value = true;
+  setTimeout(() => {
+    startOffSet.value = newOffSet;
+    loading.value = false;
+  }, 500);
 }
 </script>
 
@@ -54,7 +59,11 @@ function onPageChange(pageNumber) {
       margin: 0 auto;
       margin-top: 6%;
     ">
-    <VueTable :headers="headers" :keys="keyValues" :data="currentData" />
+    <VueTable
+      :headers="headers"
+      :keys="keyValues"
+      :data="currentData"
+      :loading="loading" />
     <div
       style="
         display: flex;
